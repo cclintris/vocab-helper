@@ -1,0 +1,8 @@
+.Home {
+  margin: 0;
+  padding: 20px;
+  background-color: rgb(51, 125, 190);
+}
+.Home > .header {
+  background-color: #262f3e;
+}
