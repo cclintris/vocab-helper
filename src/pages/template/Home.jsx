@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import '../style/Home.css'
 import { Layout, NavMenu, Menu } from 'tea-component'
 import { useSelector } from 'react-redux'
@@ -69,14 +69,14 @@ function Home(props) {
                   alt="logo"
                 />
               </NavMenu.Item>
-              <NavMenu.Item>总览</NavMenu.Item>
+              <NavMenu.Item>cclin's Vocabulary Helper</NavMenu.Item>
             </>
           }
         />
       </Header>
       <Body>
         <Sider>
-          <Menu collapsable theme="dark" title="Vocabs A~Z">
+          <Menu collapsable theme="dark" title="GRE Vocabs A~Z">
             {alphabets.map((alpha) => (
               <Menu.Item
                 title={alpha}
