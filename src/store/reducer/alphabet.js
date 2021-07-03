@@ -1,5 +1,7 @@
 const defaultState = {
   alphabet: [
+    '每日單字',
+    '錄入新單字',
     'A',
     'B',
     'C',

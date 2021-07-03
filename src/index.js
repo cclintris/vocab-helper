@@ -9,8 +9,8 @@ import allReducers from './store/reducer'
 
 const store = createStore(allReducers)
 
-// const curStore = store.getState()
-// console.log(curStore)
+const curStore = store.getState()
+console.log(curStore)
 
 ReactDOM.render(
   <Provider store={store}>
